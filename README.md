@@ -62,20 +62,3 @@ check out our documentation.
 
 There you'll find resources on how to use different LLM providers,
 troubleshooting resources, and advanced configuration options.
-
-### Custom Scripts
-
-AIDevX supports custom scripts that run at different points in the runtime lifecycle:
-
-- **setup.sh**: Place this script in the `.aidevx` directory of your repository to run custom setup commands when the runtime initializes.
-- **pre-commit.sh**: Place this script in the `.aidevx` directory to add a custom git pre-commit hook that runs before each commit. This can be used to enforce code quality standards, run tests, or perform other checks before allowing commits.
-
-## 📜 License
-
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
-
-## 🙏 Acknowledgements
-
-AIDevX is built by a large number of contributors, and every contribution is greatly appreciated! We also build upon other open source projects, and we are deeply thankful for their work.
-
-For a list of open source projects and licenses used in AIDevX, please see our [CREDITS.md](./CREDITS.md) file.
